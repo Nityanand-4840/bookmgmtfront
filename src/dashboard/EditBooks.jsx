@@ -65,7 +65,7 @@ const EditBooks = () => {
 
     // update book data
  
-    fetch(`http://localhost:3000/book/${id}`,{
+    fetch(`https://bookmgmtback.onrender.com/book/${id}`,{
       method: "PATCH",
       headers:{
         "Content-Type": "application/json"
